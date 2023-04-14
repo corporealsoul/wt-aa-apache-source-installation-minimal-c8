@@ -54,9 +54,13 @@
 
 `[anup@192 httpd-2.4.46]$ make install`
 
+<br>
+
 `[anup@192 httpd-2.4.46]$ nano PREFIX/conf/httpd.conf (Default PREFIX : /usr/local/apache2)`
 
 `[anup@192 httpd-2.4.46]$ PREFIX/bin/apachectl -k start`
+
+<br>
 
 `[anup@192 httpd-2.4.46]$ sudo firewall-cmd --permanent --add-service=http`
 
